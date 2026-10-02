@@ -10,10 +10,7 @@ from __future__ import annotations
 import json
 import os
 
-DEFAULT_MODELS = [
-    "llama-3.3-70b-versatile",
-    "llama-3.1-8b-instant",
-]
+DEFAULT_MODELS = ["openai/gpt-oss-120b", "openai/gpt-oss-20b"]
 
 SYSTEM_PROMPT = """You are a senior FMCG revenue-growth-management analyst embedded in a retailer analytics dashboard.
 You are given a JSON FACT SHEET computed from the user's current filtered data.
